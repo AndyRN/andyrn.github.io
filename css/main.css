@@ -210,24 +210,6 @@ footer {
     background: rgba(255,255,255,.1);
 }
 
-.btn-circle i.animated {
-    -webkit-transition-property: -webkit-transform;
-    -webkit-transition-duration: 1s;
-    -moz-transition-property: -moz-transform;
-    -moz-transition-duration: 1s;
-}
-
-.btn-circle:hover i.animated {
-    -webkit-animation-name: pulse;
-    -webkit-animation-duration: 1.5s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-name: pulse;
-    -moz-animation-duration: 1.5s;
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-timing-function: linear;
-}
-
 /* --- Buttons --- */
 
 .btn {
@@ -273,41 +255,5 @@ ul.banner-social-buttons {
 
     ul.banner-social-buttons li:last-child {
         margin-bottom: 0;
-    }
-}
-
-/* --- Animations (Chrome/Safari & Firefox) --- */
-
-@-webkit-keyframes pulse {
-    0% {
-        transform: scale(1);
-        -webkit-transform: scale(1);
-    }
-
-    50% {
-        transform: scale(1.2);
-        -webkit-transform: scale(1.2);
-    }
-
-    100% {
-        transform: scale(1);
-        -webkit-transform: scale(1);
-    }
-}
-
-@-moz-keyframes pulse {
-    0% {
-        transform: scale(1);
-        -moz-transform: scale(1);
-    }
-
-    50% {
-        transform: scale(1.2);
-        -moz-transform: scale(1.2);
-    }
-
-    100% {
-        transform: scale(1);
-        -moz-transform: scale(1);
     }
 }
