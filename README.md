@@ -1,2 +1,2 @@
 # andyrn.github.io
-A portfolio.
+A profile.
